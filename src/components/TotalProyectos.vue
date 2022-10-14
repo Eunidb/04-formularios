@@ -35,9 +35,9 @@
                      'bg-success' : 'bg-danger'">{{proyecto.completado ? "Completado" : "Incompleto"}}</td>
 
                     <td @click="borrar(index)" > 
-                        <p> Borrar</p>
-                            <path d="m2.5 1A1 1 0 0 0-1 1V1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1"></path>
-                        </svg>
+                       
+                       <svg> Borrar
+                            <path d="m2.5 1A1 1 0 0 0-1 1V1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1"></path></svg> 
                     </td>
                 </tr>
             </tbody>
