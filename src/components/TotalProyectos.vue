@@ -35,7 +35,7 @@
                      'bg-success' : 'bg-danger'">{{proyecto.completado ? "Completado" : "Incompleto"}}</td>
 
                     <td @click="borrar(index)" > 
-                        <svg v-t="BORRAR" width="16" heigt="16" fill="currentColor">
+                        <svg xmlns="http://ww.w3.org/200/svg" width="10" heigt="10"  fill="currentColor">
                             <path d="m2.5 1A1 1 0 0 0-1 1V1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1"></path>
                         </svg>
                     </td>
